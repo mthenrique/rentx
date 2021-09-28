@@ -1,4 +1,4 @@
-import { CategoriesRepository } from "../../repositories/implementations/Categories.repository";
+import { CategoriesRepository } from "../../repositories/implementations/CategoriesRepository";
 import { ListCategoriesController } from "./ListCategoriesController";
 // eslint-disable-next-line import/no-unresolved
 import { ListCategoriesUseCase } from "./ListCategoriesUseCase";
