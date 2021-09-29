@@ -1,4 +1,4 @@
-import {Column, MigrationInterface, QueryRunner, Table} from "typeorm";
+import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
 export class CreateCategories1632869053754 implements MigrationInterface {
 
