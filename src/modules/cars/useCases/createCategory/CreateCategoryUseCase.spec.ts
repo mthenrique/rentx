@@ -25,8 +25,6 @@ describe("Create Category", () => {
 
         const categoryCreated = await categoriesRepositoryInMemory.findByName(category.name);
 
-        console.log(categoryCreated);
-
         expect(categoryCreated).toHaveProperty("id");
     });
 
@@ -50,7 +48,6 @@ describe("Create Category", () => {
     
             const categoryCreated = await categoriesRepositoryInMemory.findByName(category.name);
     
-            console.log(categoryCreated);
         }).rejects.toBeInstanceOf(AppError);
     });
 })
