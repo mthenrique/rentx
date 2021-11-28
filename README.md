@@ -19,26 +19,26 @@
 
 # Cadastro de Especificação no carro
 **RF**
-Deve ser possível cadastrar uma especificação para um carro.
+[x] - Deve ser possível cadastrar uma especificação para um carro.
 
 
 **RN**
-Não deve ser possível cadastra uma especificação para um carro não cadastrado.
-Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
-O usuário responsável pelo cadastro dece ser um usuário administrador.
+[x] - Não deve ser possível cadastra uma especificação para um carro não cadastrado.
+[x] - Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+[x] - O usuário responsável pelo cadastro dece ser um usuário administrador.
 
 
 # Cadastro de imagens do carro
 **RF**
-Deve ser possível cadastra a imagem de um carro.
-Deve ser possível listar todos os carros.
+[x] - Deve ser possível cadastra a imagem de um carro.
+[x] - Deve ser possível listar todos os carros.
 
 **RNF**
-Utilizar o multer para upload dos arquivos
+[x] - Utilizar o multer para upload dos arquivos
 
 **RN**
-O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
-O usuário responsável pelo cadastro deve ser um usuário administrador.
+[x] - O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
+[x] - O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 
 # Aluguel
