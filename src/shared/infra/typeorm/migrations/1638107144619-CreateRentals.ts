@@ -22,16 +22,22 @@ export class CreateRentals1638107144619 implements MigrationInterface {
                     },
                     {
                         name: "start_date",
-                        type: "timestamp"
-                    },
-                    {
-                        name: "end_date",
                         type: "timestamp",
                         default: "now()"
                     },
                     {
-                        name: "expect_return_date",
+                        name: "end_date",
+                        type: "timestamp",
+                        isNullable: true
+                    },
+                    {
+                        name: "expected_return_date",
                         type: "timestamp"
+                    },
+                    {
+                        name: "total",
+                        type: "numeric",
+                        isNullable: true
                     },
                     {
                         name: "created_at",
