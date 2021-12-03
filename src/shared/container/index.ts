@@ -1,4 +1,4 @@
-import { container } from "tsyringe";
+import { container, delay } from "tsyringe";
 
 import "@shared/container/providers"
 
