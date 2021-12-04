@@ -1,4 +1,4 @@
-import { IMailProvider } from "../../IMailProvider/IMailProvider";
+import { IMailProvider } from "../../MailProvider/IMailProvider";
 
 
 class MailProviderInMemory implements IMailProvider {
